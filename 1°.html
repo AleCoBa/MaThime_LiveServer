@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="estilos/styles8.css">
+    <title>Cuestionario</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><img id="imga" src="images/nose.png"></li>
+                <li>
+                    <h1>MaThime</h1>
+                </li>
+                <li><a class="a1" href="eleccion4.html">Seleccionar tema</a></li>
+                <li><a id="pp" class="a1" href="index5.html">Página Principal</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div id="p1">
+        <div id="p3">
+            <h1>Punto 1</h1>
+            <br>
+            <p>¿A qué número tiene que ir la nave, si tiene que ir a un número que se encuentre entre el número 2 y el número 4?</p>
+        </div>
+        <div id="p2">
+            <div id="p2-1">
+                <button class="redondo a w" id="1" onclick="seguir(this)"> <b>1</b> </button>
+                <br><br><br><br><br>
+                <img src="images/ye.png" id="it">
+            </div>
+            <div id="p2-2">
+                <button class="redondo b w" id="32" onclick="seguir(this)"> <b>32</b></button>
+                <br><br><br><br>
+                <button class="redondo c w" id="45" onclick="seguir(this)"> <b>45</b> </button>
+            </div>
+            <div id="p2-3">
+                <button class="redondo d w" id="3" onclick="seguir(this)"> <b>3</b> </button>
+                <br><br><br><br>
+                <button class="redondo e w" id="6" onclick="seguir(this)"> <b>6</b> </button>
+            </div>
+        </div>
+    </div>
+
+    <script src="logica/logic5.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</body>
+
+</html>

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="Estilos/styles3.css">
+    <title>Registro</title>
+</head>
+
+<body onload="iniciar()">
+    <header>
+        <nav>
+            <ul>
+                <li><img id="imga" src="images/nose.png"></li>
+                <li><h1>MaThime</h1></li>
+                <li><a href="index.html">Página Principal</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div id="d1">
+        <div id="d2">
+            <h1>Registrate</h1>
+            <br><br>
+            <label>Nombre de usuario</label>
+            <br>
+            <input type="text" placeholder="Usuario" id="user">
+            <br><br>
+            <label>Correo Electrónico</label>
+            <br>
+            <input type="email" placeholder="correo@ejem.com" id="email">
+            <br><br>
+            <label>Contraseña</label>
+            <br>
+            <input type="password" placeholder="Contraseña" id="pass">
+            <br><br>
+            <label>Repetir Contraseña</label>
+            <br>
+            <input type="password" placeholder="Contraseña" id="pass2">
+            <br><br>
+            <a href="iniciosesion2.html">¿Ya tienes una cuenta?</a>
+            <br><br>
+            <input type="button" id="b1" value="Registrarse" onclick="registro()">
+            <br><br>
+        </div>
+        <div id="d3">
+            <img src="images/MaThime.png">
+        </div>
+    </div>
+
+    <script src="Logica/logic2.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</body>
+
+</html>

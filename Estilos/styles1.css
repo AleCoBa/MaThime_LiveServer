@@ -1,0 +1,185 @@
+html {
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+    color: white;
+    background: linear-gradient(180deg, rgb(43, 43, 43), rgb(0, 0, 0)) no-repeat fixed;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    width: 15%;
+}
+
+a {
+    color: rgb(76, 212, 202);
+    font-size: 1em;
+    text-decoration: none;
+}
+
+
+h1 {
+    padding-top: 5%;
+    margin-bottom: -2%;
+    font-size: 2.5em;
+}
+
+h2 {
+    font-size: 2em;
+    padding: 2%;
+    text-align: left;
+}
+
+h3 {
+    font-size: 1.7em;
+    padding: 7%;
+}
+
+iframe{
+    padding: 10%;
+}
+
+header {
+    background: rgb(19, 19, 19);
+    width: 100%;
+    color: white;
+}
+
+
+nav ul {
+    list-style: none;
+    overflow: hidden;
+}
+
+nav ul li {
+    list-style: none;
+}
+
+nav ul li a {
+    float: right;
+    display: block;
+    color: rgb(76, 212, 202);
+    background-color: rgb(26, 25, 25);
+    padding: 27px;
+    border-style: none;
+    font-size: 20px;
+}
+
+nav ul li a:hover {
+    color: white;
+    background: rgb(76, 212, 202);
+    transition: linear 0.2s;
+}
+
+nav ul li h1 {
+    font-size: 30px;
+    float: left;
+    margin: 10px;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-style: solid;
+    border-left-color: white;
+    border-top-color: transparent;
+    border-right-color: transparent;
+    border-bottom-color: transparent;
+    border-width: 1px;
+
+}
+
+#imga {
+    float: left;
+    width: 60px;
+    padding: 7px;
+    padding-left: 30px;
+}
+
+#pp {
+    color: white;
+    background: rgb(19, 19, 19);
+}
+
+#pp:hover {
+    color: white;
+    background: rgb(76, 212, 202);
+    transition: linear 0.2s;
+}
+
+#d1 {
+    display: grid;
+    grid-template-columns: 45% 45%;
+    grid-template-rows: 400px 400px;
+    padding: 5%;
+    margin-top: 2%;
+    align-items: center;
+    justify-content: center;
+    grid-gap: 4%;
+}
+
+#d2 {
+    grid-column: 1/2;
+    text-align: center;
+    border-radius: 10px;
+    border-style: solid;
+    border-bottom: transparent;
+    border-left: transparent;
+    border-right: transparent;
+    border-color: rgb(255, 153, 0);
+    background: linear-gradient(300deg, rgb(30, 30, 30), rgb(34, 23, 5)) no-repeat fixed;
+}
+
+#d3{
+    text-align: center;
+    border-radius: 10px;
+    border-style: solid;
+    border-bottom: transparent;
+    border-left: transparent;
+    border-right: transparent;
+    border-color: rgb(93, 76, 212);   
+    background: linear-gradient(90deg, rgb(30, 30, 30), rgb(13, 11, 24)) no-repeat fixed;
+}
+
+#d4{
+    grid-column: 1/3;
+    text-align: center;
+    border-radius: 10px;
+    border-style: solid;
+    border-bottom: transparent;
+    border-left: transparent;
+    border-right: transparent;
+    border-color: rgb(76, 212, 202);
+    background: linear-gradient(180deg, rgb(40, 40, 40), rgb(25, 49, 48)) no-repeat fixed;
+}
+
+.eld{
+    background:rgb(19, 19, 19);
+    border-style: solid;
+    border-bottom: transparent;
+    border-left: transparent;
+    border-right: transparent;
+}
+
+#eld1{
+    color: rgb(255, 153, 0);
+    border-color: rgb(255, 153, 0);
+}
+
+#eld2{
+    color: rgb(93, 76, 212);  
+    border-color: rgb(93, 76, 212);  
+}
+
+#eld3{
+    color: rgb(76, 212, 202);
+    border-color: rgb(76, 212, 202);
+}
+
+/*
+PALETAS:
+Morao: rgb(93, 76, 212);
+Verde a su lado: rgb(76, 212, 202);
+Naranja: rgb(212, 148, 76);
+*/

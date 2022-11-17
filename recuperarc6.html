@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="Estilos/styles6.css">
+    <title>Inicio de Sesión</title>
+</head>
+
+<body onload="iniciar()">
+    <header>
+        <nav>
+            <ul>
+                <li><img id="imga" src="images/nose.png"></li>
+                <li><h1>MaThime</h1></li>
+                <li><a class="a1" href="index.html">Página Principal</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div id="d1">
+        <div id="d2">
+            <h1>Recuperar contraseña</h1>
+            <br><br>
+            <label>Usuario</label>
+            <br><br>
+            <input type="text" placeholder="Ingrese su usuario" id="userc">
+            <br><br>
+            <input type="button" id="b1" value="Recuperar" onclick="recu()">
+            <input type="button" id="b1" value="Volver" onclick="vol()">
+        </div>
+    </div>
+
+    <script src="Logica/logic2.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</body>
+
+</html>

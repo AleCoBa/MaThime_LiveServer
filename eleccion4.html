@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="estilos/styles4.css">
+    <title>Desarrollo</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><img id="imga" src="images/nose.png"></li>
+                <li><h1>MaThime</h1></li>
+                <li><a class="a1" href="iniciosesion2.html">Cerrar Sesiòn</a></li>
+                <li><a id="pp" class="a1" href="index5.html">Página Principal</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div id="d1">
+        <div id="d2">
+            <h1>¡Hora de Aprender!</h1>
+            <br><br>
+            <h2>Para empezar a aprender con MaThime, debes seleccionar el grado que cursas actualmente en el cuadro
+                morado y después elegir el tema, que desees mejorar en el cuadro naranja. Luego, responderás preguntas
+                junto a los minijuegos que te saldrán en pantalla. ¡Suerte!
+            </h2>
+        </div>
+        <div id="d3">
+        </div>
+        <div id="d4">
+            <label id="l1">Tu grado:</label>
+            <br><br>
+            <select id="sel" onchange="selg()">
+                <option selected disabled>Selecciona</option>
+                <option value="1">Grado 1°</option>
+                <option value="2">Grado 2°</option>
+                <option value="3">Grado 3°</option>
+                <option value="4">Grado 4°</option>
+                <option value="5">Grado 5°</option>
+            </select>
+        </div>
+        <div id="d5">
+            <label id="l2">Tema:</label>
+            <br><br>
+            <input type="button" id="inpu">
+        </div>
+    </div>
+</body>
+
+<script src="logica/logic4.js"></script>
+<script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</html>

@@ -1,0 +1,215 @@
+html {
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+    background: linear-gradient(180deg, rgb(31, 31, 31), rgb(0, 0, 0)) no-repeat fixed;
+    color: white;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    color: rgb(76, 212, 202);
+    font-size: 1em;
+    text-decoration: none;
+}
+
+header {
+    background: rgb(19, 19, 19);
+    width: 100%;
+    color: white;
+}
+
+
+nav ul {
+    list-style: none;
+    overflow: hidden;
+}
+
+nav ul li {
+    list-style: none;
+}
+
+nav ul li a {
+    float: right;
+    display: block;
+    color: rgb(76, 212, 202);
+    background-color: rgb(26, 25, 25);
+    padding: 27px;
+    border-style: none;
+    font-size: 20px;
+}
+
+nav ul li a:hover {
+    color: white;
+    background: rgb(76, 212, 202);
+    transition: linear 0.2s;
+}
+
+nav ul li h1{
+    font-size: 30px;
+    float: left;
+    margin: 10px;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-style: solid;
+    border-left-color: white;
+    border-top-color: transparent;
+    border-right-color: transparent;
+    border-bottom-color: transparent;
+    border-width: 1px;
+
+}
+
+#imga {
+    float: left;
+    width: 60px;
+    padding: 7px;
+    padding-left: 30px;
+}
+
+#pp{
+    color: white;
+    background: rgb(19, 19, 19);
+}
+
+#pp:hover {
+    color: white;
+    background: rgb(76, 212, 202);
+    transition: linear 0.2s;
+}
+
+#d1 {
+    display: grid;
+    grid-gap: 4%;
+    grid-template-columns: 400px 300px 400px;
+    grid-template-rows: 200px 230px;
+    justify-content: center;
+    align-self: center;
+    margin: 2%;
+}
+
+#d2 {
+    grid-column: 1/4;
+    grid-row: 1/2;
+    align-self: center;
+}
+
+#d3{
+    grid-column: 1/2;
+    grid-row: 2/3;
+    align-self: center;
+    padding: 28%;
+    background-image: url("https://media.tenor.com/taOALJtdizQAAAAC/maravillosa-jugada.gif");
+    border-radius: 10px;
+}
+
+#d4 {
+    background:rgb(13, 11, 24); 
+    color: rgb(93, 76, 212);
+    border-style: solid;
+    border-color: rgb(93, 76, 212);
+    grid-column: 2/3;
+    grid-row: 2/3;
+    padding: 15%;
+    border-radius: 10px;
+}
+
+#d5{
+    background:rgb(34, 23, 5);
+    color: rgb(255, 153, 0);
+    text-align: center;
+    grid-column: 3/4;
+    grid-row: 2/3;
+    align-self: center;
+    padding: 10%;
+    border-style: solid;
+    border-color: rgb(255, 153, 0);
+    border-radius: 10px;
+}
+
+
+h1 {
+    font-size: 2.5em;
+}
+
+label {
+    font-size: 1.6em;
+    font-weight: bold;
+    margin: 10px;
+}
+
+#l1{
+    color: white;
+}
+
+input {
+    font-size: 1.4em;
+    color: gray;
+    background-color: white;
+    border-color: gray;
+    border-style: solid;
+    border-top: transparent;
+    border-left: transparent;
+    border-right: transparent;
+    outline: none;
+}
+
+input:focus::placeholder,
+input:focus {
+    color: rgb(76, 212, 202);
+    border-color: rgb(76, 212, 202);
+    transition: 0.1s ease-in;
+}
+
+img {
+    width: 50%;
+}
+
+select{
+    font-size: 1.5em;
+    color: white;
+    background-color: rgb(93, 76, 212);
+    border-color: white;
+    transition: 0.2s ease-in;
+    border-style: solid;
+    border-radius: 30px;
+    padding: 3%;
+    text-align: center;
+    border-width: 2px;
+    outline: none;
+    appearance: none; 
+}
+
+select:focus{
+    color: white;
+    background-color: rgb(13, 11, 24);
+    border-color: rgb(93, 76, 212);
+}
+
+.b1 {
+    font-size: 1.5em;
+    color: white;
+    background-color: rgb(34, 23, 5);
+    border-color: rgb(255, 153, 0);
+    border-style: solid;
+    border-radius: 30px;
+    padding: 2%;
+}
+
+.b1:hover {
+    color: rgb(13, 11, 24);
+    background-color: rgb(255, 153, 0);
+    border-color: rgb(255, 153, 0);
+    transition: 0.2s ease-in;
+}
+
+/*
+PALETAS:
+Morao: rgb(93, 76, 212);
+Verde a su lado: rgb(76, 212, 202);
+Naranja: rgb(212, 148, 76);
+*/

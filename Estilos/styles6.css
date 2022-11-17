@@ -1,0 +1,173 @@
+html {
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+    background: linear-gradient(180deg, rgb(43, 43, 43), rgb(0, 0, 0)) no-repeat fixed;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    color: rgb(76, 212, 202);
+    font-size: 1em;
+    text-decoration: none;
+}
+
+#a1 {
+    color: rgb(76, 212, 202);
+}
+
+header {
+    background: rgb(19, 19, 19);
+    width: 100%;
+    color: white;
+}
+
+
+nav ul {
+    list-style: none;
+    overflow: hidden;
+}
+
+nav ul li {
+    list-style: none;
+}
+
+nav ul li a {
+    float: right;
+    display: block;
+    color: rgb(76, 212, 202);
+    background-color: rgb(26, 25, 25);
+    padding: 27px;
+    border-style: none;
+    font-size: 20px;
+}
+
+nav ul li a:hover {
+    color: white;
+    background: rgb(76, 212, 202);
+    transition: linear 0.2s;
+}
+
+nav ul li h1 {
+    font-size: 30px;
+    float: left;
+    margin: 10px;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-style: solid;
+    border-left-color: white;
+    border-top-color: transparent;
+    border-right-color: transparent;
+    border-bottom-color: transparent;
+    border-width: 1px;
+
+}
+
+#imga {
+    float: left;
+    width: 60px;
+    padding: 7px;
+    padding-left: 30px;
+}
+
+#d1 {
+    display: grid;
+    grid-template-columns: 35%;
+    justify-content: center;
+    align-self: center;
+    margin: 5%;
+}
+
+#d2 {
+    grid-column: 1/2;
+    align-self: center;
+    text-align: center;
+    background: rgb(13, 11, 24);
+    color: rgb(93, 76, 212);
+    border-style: solid;
+    border-color: rgb(93, 76, 212);
+    border-radius: 10px;
+    padding: 3%;
+}
+
+#d3 {
+    grid-column: 2/3;
+    align-self: center;
+}
+
+h1 {
+    color: white;
+    font-size: 2.5em;
+}
+
+label {
+    color: white;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+
+#b1 {
+    font-size: 20px;
+    color: rgb(93, 76, 212);
+    background-color: white;
+    border-color: white;
+    border-style: solid;
+    border-radius: 30px;
+    padding: 1%;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#b1:hover {
+    color: rgb(13, 11, 24);
+    background-color: rgb(76, 212, 202);
+    border-color: rgb(76, 212, 202);
+    transition: 0.2s ease-in;
+}
+
+input {
+    text-align: center;
+    font-size: 1.4em;
+    background-color: transparent;
+    color: rgb(76, 212, 202)    ;
+    border-color: rgb(76, 212, 202);
+    border-style: solid;
+    border-top: transparent;
+    border-left: transparent;
+    border-right: transparent;
+    outline: none;
+}
+
+input::placeholder {
+    color: rgb(76, 212, 202);
+}
+
+input:focus::placeholder,
+input:focus {
+    color: white;
+    border-color: white;
+    transition: 0.1s ease-in;
+}
+
+
+img {
+    height: auto;
+    width: 100%;
+}
+
+p {
+    color: rgb(76, 212, 202);
+}
+
+
+/*
+PALETAS:
+Morao: rgb(93, 76, 212);
+Verde a su lado: rgb(76, 212, 202);
+Naranja: rgb(212, 148, 76);
+*/

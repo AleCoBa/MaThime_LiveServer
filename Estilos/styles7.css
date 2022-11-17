@@ -1,0 +1,201 @@
+html {
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+    background: linear-gradient(180deg, rgb(43, 43, 43), rgb(0, 0, 0)) no-repeat fixed;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    color: rgb(76, 212, 202);
+    font-size: 1em;
+    text-decoration: none;
+}
+
+#a1 {
+    color: rgb(76, 212, 202);
+}
+
+header {
+    background: rgb(19, 19, 19);
+    width: 100%;
+    color: white;
+}
+
+
+nav ul {
+    list-style: none;
+    overflow: hidden;
+}
+
+nav ul li {
+    list-style: none;
+}
+
+nav ul li a {
+    float: right;
+    display: block;
+    color: rgb(76, 212, 202);
+    background-color: rgb(26, 25, 25);
+    padding: 27px;
+    border-style: none;
+    font-size: 20px;
+}
+
+nav ul li a:hover {
+    color: white;
+    background: rgb(76, 212, 202);
+    transition: linear 0.2s;
+}
+
+#pp {
+    color: white;
+    background: rgb(19, 19, 19);
+}
+
+#pp:hover {
+    color: white;
+    background: rgb(76, 212, 202);
+    transition: linear 0.2s;
+}
+
+nav ul li h1 {
+    font-size: 30px;
+    float: left;
+    margin: 10px;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-style: solid;
+    border-left-color: white;
+    border-top-color: transparent;
+    border-right-color: transparent;
+    border-bottom-color: transparent;
+    border-width: 1px;
+
+}
+
+#imga {
+    float: left;
+    width: 60px;
+    padding: 7px;
+    padding-left: 30px;
+}
+
+#p1 {
+    margin-top: 7%;
+}
+
+
+h1 {
+    color: white;
+    font-size: 4em;
+    margin: 1%;
+}
+
+p {
+    color: rgb(255, 153, 0);
+    font-size: 2em;
+}
+
+.redondo {
+    height: 130px;
+    width: 130px;
+    color: white;
+    border-style: solid;
+    border-color: rgb(93, 76, 212);
+    background-color: rgb(13, 11, 24);
+    border-width: 5px;
+    border-radius: 50%;
+    font-size: 4em;
+    margin: 0.5%;
+}
+
+.redondo:hover {
+    border-color: rgb(76, 212, 202);
+    background-color: rgb(25, 49, 48);
+    transition: 0.2s ease-in;
+}
+
+#kye {
+    width: 350px;
+}
+
+#kye2{
+    width: 370px;
+    height: 190px;
+}
+
+#b1 {
+    display: grid;
+    grid-template-columns: 20% 20% 12%;
+    justify-content: center;
+    margin-top: 4%;
+    justify-items: center;
+}
+
+#b3 {
+    width: 200px;
+}
+
+#b4 {
+    justify-items: center;
+}
+
+.fr {
+    color: rgb(76, 212, 202);
+    background-color: rgb(13, 11, 24);
+    border-color: rgb(93, 76, 212);
+    width: 135px;
+    height: 90px;
+    text-align: center;
+    border-style: solid;
+    border-width: 4px;
+    outline: none;
+    appearance: none;
+    font-size: 4em;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.fr:focus {
+    color: white;
+    transition: 0.2s ease-in;
+}
+
+#lol2 {
+    font-size: 1.7em;
+    color: white;
+    background-color: rgb(25, 49, 48);
+    border-color: rgb(76, 212, 202);
+    transition: 0.2s ease-in;
+    border-style: solid;
+    border-radius: 30px;
+    padding: 5%;
+    text-align: center;
+    border-width: 4px;
+    margin-top: 70%;
+}
+
+#lol2:hover {
+    color: black;
+    background-color: rgb(76, 212, 202);
+    transition: 0.2s ease-in;
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+
+/*
+PALETAS:
+Morao: rgb(93, 76, 212);
+Verde a su lado: rgb(76, 212, 202);
+Naranja: rgb(212, 148, 76);
+
+*/
